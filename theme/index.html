@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bolt My Profile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <link rel="stylesheet" href="assets/img/okinawa.jpg">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+          <img class="alignnone size-full wp-image-600" src="http://i1.wp.com/rakuten-tips.com/wp-content/uploads/2015/04/logoanimation.gif?resize=484%2C384" alt="logoanimation" width="65" height="65">
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+
+	<div id="hello">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>鬼沢　遥平</h1> 
+	    			<h2>私のプロフィール</h2>
+					<div id="green">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-5 centered">
+									<img src="assets/img/profile_photo.jpg">
+								</div>
+								
+								<div class="col-lg-7 centered">
+									<h3>私の紹介</h3>
+									<p>生年月日：1993年7月19日(22)<br />出身地：千葉県柏市<br />趣味：旅行(ハワイ、グアム、オーストラリア、アメリカ[LA,NY]
+										,カナダ、イギリス[ロンドン、台湾、ニュージーランド、フィリピン[セブ]{3月予定マレーシア、シンガポール})<br /></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row centered mt grid">
+			<h3>知ってほしい</h3>
+			<div class="mt"></div>
+			<div class="col-lg-4">
+				<a href="http://www.kandagaigo.ac.jp/kuis/"><img src="assets/img/kuis_library.jpg" alt="kuis_library" width=" 300px" height=" 300px"></a>
+			</div>
+			<div class="col-lg-4">
+				<a href="#"><img src="assets/img/my_cat.jpg" alt="my_cat.jpg" width=" 300px" height=" 300px"></a>
+			</div>
+			<div class="col-lg-4">
+				<a href="http://www.costco.co.jp/p/locations/shinmisato"><img src="assets/img/costco_bear.jpg" alt="costco_bear.jpg" width=" 300px" height=" 300px"></a>
+			</div>
+			<div class="row centered mt grid">
+				<div class="mt"></div>		
+				<div class="col-lg-4">
+					<a href="http://www.reysol.co.jp/main.php"><img src="assets/img/reysol_logo.jpg" alt="reysol_logo.jpg" width=" 300px" hight="200px"></a>
+				</div>
+				<div class="col-lg-4">
+					<a href="＃"><img src="assets/img/bump.jpg" alt="bump.jpg" width=" 300px" height="300px"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="row mt centered">
+		<div class="col-lg-7 col-lg-offset-1 mt">
+			<p class="lead">セブ留学が終わっても覚えててください</p>
+		</div>
+			
+		<div class="col-lg-3 mt">
+			<p><button type="button" class="btn btn-theme btn-lg">Email Me!</button></p>
+		</div>
+	</div>
+
+
+	<div id="skills" style="width: 800px; height: 1300px;">
+		<div class="container">
+			<div class="row centered">
+				<h3>OUR SKILLS</h3>
+				<div class="col-lg-3 mt">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<p>Javascript</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#74cfae"
+								},
+								{
+									value : 30,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<p>Bootstrap</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<p>Wordpress</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="photoshop" height="130" width="130"></canvas>
+					<p>Photoshop</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div>
+		</div>	
+	</div>	
+	
+
+
+	<section id="contact"></section>
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="col-md-3">
+						<a href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://twitter.com/wazaniwo"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="#"><i class="fa fa-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<p>That's all<i class="fa fa-heart"></i>Thank you so much.</p>
+			</div>
+		</div>
+	</div>
+
+
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
